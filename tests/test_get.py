@@ -6,4 +6,4 @@ def test_plus(calculator):
 
 def test_plus_exception(calculator):
     with pytest.raises(Exception):
-        calculator("","")
+        calculator('','')
